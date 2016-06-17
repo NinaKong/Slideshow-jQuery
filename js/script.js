@@ -28,8 +28,8 @@ function changeImage() {
 		imageIndex = 0;
 	}
 }
-
-window.onload = function() {
+$(document).ready(function () {
+	"use strict";
 	setInterval(changeImage,3000);
 	Overlay();
-};
+});
